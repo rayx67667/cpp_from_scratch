@@ -15,8 +15,10 @@ int main(void)
     std::cout << "Enter your age" << std::endl;
     std::cin >> age;
 
+    int value = current_year + (100-age);
 
-    std::cout << "Your name is " << name << " and your age is " << age << std::endl;
+
+    std::cout << "Your name is " << name << " and your age is " << age << " 100 years old in " << value << std::endl;
 
     return 0;
 }
